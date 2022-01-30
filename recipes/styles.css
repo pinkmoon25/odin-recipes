@@ -1,3 +1,7 @@
+*{
+    background-color: rgb(179, 233, 255);
+}
+
 h1{
     color: rgb(150, 1, 1);
     text-align: center;
@@ -6,20 +10,20 @@ h1{
 }
 
 p{
-    color: indigo;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(41, 41, 41);
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
 }
 
 ul{
-    color: rgb(0, 0, 179);
+    color: rgb(41, 41, 41);
     font-size: 20px;
     font-weight: bold;
 }
 
 ol {
-    color: rgb(0, 202, 0);
+    color: rgb(41, 41, 41);
     font-size: 20px;
     font-weight: bold;
 }
