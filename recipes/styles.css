@@ -1,5 +1,6 @@
-*{
-    background-color: rgb(179, 233, 255);
+
+div{
+    text-align: center;
 }
 
 h1{
@@ -7,31 +8,39 @@ h1{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    border: 5px dotted;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px auto;
 }
 
 p{
     color: rgb(41, 41, 41);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    font-weight: bold;
+    margin: 0 60px;
 }
 
 ul{
     color: rgb(41, 41, 41);
     font-size: 20px;
-    font-weight: bold;
+    margin: 0 55px;
 }
 
 ol {
     color: rgb(41, 41, 41);
     font-size: 20px;
-    font-weight: bold;
+    margin: 0 55px;
 }
 
 .header{
     color: rgb(150, 1, 1);
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    margin: 10px 50px;
+    display: inline-block;
+    border: 5px dotted;
+    padding: 10px;
 }
 
 img{
@@ -40,5 +49,6 @@ img{
     margin-right: auto;
     border-radius: 25px;
     height: auto;
-    max-width:fit-content;
+    max-width: 600px;
+    
 }
