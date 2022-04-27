@@ -1,54 +1,61 @@
-
-div{
-    text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  text-align: center;
+  background-image: url(../images/pexels-adonyi-gábor-1414651.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1{
-    color: rgb(150, 1, 1);
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    border: 5px dotted;
+  margin-top: 0;
+  padding: 10px;
+  font-size: 2.2em;
+  background-color: rgba(247, 192, 121, 0.8);
+  width: max-content;
+  border-radius: 8px;
+  margin: 0 auto 20px;
+}
+
+.picture{
+  border-radius: 50%;
+  width: 50%;
+}
+
+li{
+  list-style-position: inside;
+}
+
+.main{
+  width: max-content;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.description{
     padding: 10px;
-    display: inline-block;
+    background: rgb(37, 120, 176, 0.8);
     margin: 10px auto;
-}
-
-p{
-    color: rgb(41, 41, 41);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin: 0 60px;
-}
-
-ul{
-    color: rgb(41, 41, 41);
-    font-size: 20px;
-    margin: 0 55px;
-}
-
-ol {
-    color: rgb(41, 41, 41);
-    font-size: 20px;
-    margin: 0 55px;
-}
-
-.header{
-    color: rgb(150, 1, 1);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin: 10px 50px;
-    display: inline-block;
-    border: 5px dotted;
-    padding: 10px;
-}
-
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 25px;
-    height: auto;
-    max-width: 600px;
-    
+    font-size: 1.2em;
+}
+
+.ingredients{
+  padding: 10px;
+  background: rgb(47, 79, 79, 0.8);
+  margin: 10px auto;
+  border-radius: 25px;
+  font-size: 1.2em;
+}
+
+.steps{
+  padding: 10px;
+  background: rgb(95, 158, 160, 0.8);
+  margin: 10px auto;
+  border-radius: 25px;
+  font-size: 1.2em;
 }
