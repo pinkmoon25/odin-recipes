@@ -1,46 +1,55 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url(../images/pexels-aleksandar-pasaric-1415734.jpg);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.picture{
+  border-radius: 50%;
+  width: 40%;
+  height:auto;
+}
+
 h1{
-    text-align: center;
-    color: rgb(235, 67, 67);
-    font-size: 50px;
+  margin-top: 0;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+  background-color: #FF4500;
+  padding: 12px;
 }
 
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 350px;
-    width: 500px;
-    padding: 10px;
-    background-color:antiquewhite;
+.main{
+  margin: 0 20px 20px 20px;
+  padding: 0 50px 50px 50px;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-.header{
-    color: rgb(255, 102, 0);
-    font-weight: bold;
-    font-size: 25px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 50px;
-    
+li{
+  list-style-position: inside;
 }
 
-p{
-    margin-right: 55px;
-    margin-left: 55px;
-    font-size: 20px;
-    font-weight: bold;
-
+.description{
+  background-color: wheat;
+  border-radius: 20px;
+  padding: 10px;
 }
 
-ul{
-    margin-right: 55px;
-    margin-left: 55px;
-    font-size: 20px;
-    font-weight: bold;
+.ingredients{
+  background-color: coral;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
 }
 
-ol{
-    margin-right: 55px;
-    margin-left: 55px;
-    font-size: 20px;
-    font-weight: bold;
+.steps{
+  background-color: cadetblue;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
 }
