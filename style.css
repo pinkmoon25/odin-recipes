@@ -1,23 +1,57 @@
-*{
-    background-color: turquoise;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100vh;
+  background-image: url(images/pexels-engin-akyurt-1435895.jpg);
 }
 
 h1{
-    text-align: center;
-    font-size: 100px;
+  margin-top: 1.8em;
+  margin-bottom: 0;
+  font-size: 3em;
+  font-weight: bold;
+  color: #1e3811;
+  text-shadow: -2px 1px 2px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: underline;
 }
+
+a{
+  text-decoration: none;
+  color: #a9333e;
+  font-family: cursive, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+a:hover{
+  color: yellow;
+}
+
 
 ul{
-    display: block;
-    margin: 100px;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+  list-style-type: none;
 }
 
-h2{
-    display: block;
-    text-align: center;
-    font-size: 30px;
-    font-family: cursive, 'Times New Roman', Times, serif;
+.page-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: space-between;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+}
+
+footer{
+  padding-bottom: 1.5em;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-style: italic;
 }
