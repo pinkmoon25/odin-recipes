@@ -32,6 +32,23 @@ h1{
   font-size: 1.2em;
 }
 
+@media(max-width: 600px){
+  .main{
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+strong{
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+}
+
+h2{
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+}
+
 li{
   list-style-position: inside;
 }

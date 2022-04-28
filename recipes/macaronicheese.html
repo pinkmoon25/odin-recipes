@@ -18,6 +18,10 @@
               h1{
                 font-size: 2em;
               }
+              h2{
+                text-decoration: underline;
+                text-decoration-thickness: from-font;
+              }
               .picture{
                 width: 40%;
                 border-radius: 25px;
@@ -31,6 +35,12 @@
                 width: max-content;
                 margin: 10px auto;
                 text-align: justify;
+              }
+              @media (max-width: 600px){
+                .main{
+                  width: auto;
+                  margin: 10px;
+                }
               }
               .ingredients{
                 background: rgb(73,143,174,0.8);
@@ -49,6 +59,11 @@
                 padding: 10px;
                 margin: 0 25px 10px 25px;
                 border-radius: 15px;
+              }
+              @media (max-width: 600px){
+                .description{
+                  margin: 10px;
+                }
               }
         </style>
     </head>
